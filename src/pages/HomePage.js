@@ -3,6 +3,16 @@ import { PRODUCTS } from "../data/products.js";
 import { renderProductCard } from "../components/ProductCard.js";
 import { buildWhatsAppLink, formatINR, getProductWhatsAppUrl } from "../services/whatsapp.js";
 
+function formatHeroHeadline(headline) {
+  if (headline.includes(".")) {
+    const parts = headline.split(".").map(s => s.trim()).filter(Boolean);
+    if (parts.length === 2) {
+      return `<span class="hero-title-phrase">${parts[0]}.</span> <span class="hero-title-phrase">${parts[1]}.</span>`;
+    }
+  }
+  return `<span class="hero-title-phrase">${headline}</span>`;
+}
+
 export function renderHomePage() {
   const bestsellers = PRODUCTS.filter(p => p.isBestseller).slice(0, 4);
   const newArrivals = PRODUCTS.filter(p => p.isNew).slice(0, 4);
@@ -20,7 +30,7 @@ export function renderHomePage() {
               <div class="hero-badge">
                 <span>Royal Spirit &bull; Jaipur Heritage</span>
               </div>
-              <h1 class="hero-title">${slide.headline}</h1>
+              <h1 class="hero-title">${formatHeroHeadline(slide.headline)}</h1>
               <p class="hero-subtitle">${slide.subheading}</p>
               <div class="hero-actions">
                 <a href="${slide.primaryLink}" class="btn-luxury btn-luxury-gold">${slide.primaryCta}</a>
