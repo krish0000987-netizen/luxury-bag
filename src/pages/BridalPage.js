@@ -1,6 +1,7 @@
 import { PRODUCTS } from "../data/products.js";
 import { renderProductCard } from "../components/ProductCard.js";
 import { buildWhatsAppLink, getBridalAppointmentUrl } from "../services/whatsapp.js";
+import { STORE_DETAILS } from "../data/collections.js";
 
 export function renderBridalPage() {
   const bridalBags = PRODUCTS.filter(p => p.isBridal);
@@ -114,7 +115,7 @@ export function renderBridalPage() {
             We offer bespoke multi-bag wedding packages for the bride, mother of the bride, and bridesmaids. Connect with our senior Jaipur concierge for personal video walkthroughs and special bridal trousseau sets.
           </p>
           <a href="${buildWhatsAppLink("Hello, I am planning my wedding trousseau and would like personalized assistance for multiple bags.")}" target="_blank" rel="noopener" class="btn-whatsapp" style="padding:1rem 2rem; font-size:0.85rem;">
-            WhatsApp Bridal Concierge (+91 96029 57926)
+            WhatsApp Bridal Concierge (${STORE_DETAILS.phone})
           </a>
         </div>
       </section>

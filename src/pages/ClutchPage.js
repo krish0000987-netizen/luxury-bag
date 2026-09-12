@@ -1,6 +1,7 @@
 import { PRODUCTS } from "../data/products.js";
 import { renderProductCard } from "../components/ProductCard.js";
 import { buildWhatsAppLink } from "../services/whatsapp.js";
+import { STORE_DETAILS } from "../data/collections.js";
 
 export function renderClutchPage() {
   const clutches = PRODUCTS.filter(p => p.category === "clutches");
@@ -51,7 +52,7 @@ export function renderClutchPage() {
             Share your outfit color or event theme, and our Jaipur stylists will send you high-definition video recommendations on WhatsApp.
           </p>
           <a href="${buildWhatsAppLink("Hello, I need help selecting the perfect clutch for an upcoming occasion.")}" target="_blank" rel="noopener" class="btn-whatsapp" style="padding:1rem 2rem;">
-            Chat on WhatsApp (+91 96029 57926)
+            Chat on WhatsApp (${STORE_DETAILS.phone})
           </a>
         </div>
       </section>

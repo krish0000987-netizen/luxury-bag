@@ -1,6 +1,6 @@
 import { STORE_DETAILS } from "../data/collections.js";
 
-const PHONE_NUMBER = STORE_DETAILS.phoneRaw; // 919602957926
+const PHONE_NUMBER = STORE_DETAILS.phoneRaw; // 91935318835
 
 /**
  * Format currency in Indian Rupees

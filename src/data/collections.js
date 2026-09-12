@@ -219,8 +219,8 @@ export const STORE_DETAILS = {
   state: "Rajasthan",
   country: "India",
   pincode: "302002",
-  phone: "+91 96029 57926",
-  phoneRaw: "919602957926",
+  phone: "+91 93531 8835",
+  phoneRaw: "91935318835",
   hours: "Monday – Saturday: 10:30 AM – 8:30 PM (Sunday by VIP appointment)",
   email: "concierge@luxurybagsjaipur.com"
 };

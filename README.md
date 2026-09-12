@@ -18,7 +18,7 @@ Inspired by the royal courts of Rajasthan and situated **Near Hawa Mahal, Jaipur
   7. `About Us` — "Born in Jaipur. Designed for the Extraordinary." Authentic Rajputana heritage copy.
   8. `Jaipur Craftsmanship` — 6-step interactive visual journey from archival inspiration to final keepsake chest.
   9. `Lookbook / Gallery` — High-fashion magazine editorial layout with "Shop the Look" triggers.
-  10. `Contact & Store` — Near Hawa Mahal, Jaipur, Rajasthan; Phone & WhatsApp: `+91 96029 57926`.
+  10. `Contact & Store` — Near Hawa Mahal, Jaipur, Rajasthan; Phone & WhatsApp: `+91 93531 8835`.
 
 - **WhatsApp E-Commerce Engine**:
   - Direct 1-click WhatsApp order buttons for every product with pre-filled SKU, name, price, and quantity.
@@ -62,5 +62,5 @@ Inspired by the royal courts of Rajasthan and situated **Near Hawa Mahal, Jaipur
 ## ✦ Boutique Details
 
 - **Location**: Near Hawa Mahal, Jaipur, Rajasthan 302002, India
-- **Contact / WhatsApp**: +91 96029 57926
+- **Contact / WhatsApp**: +91 93531 8835
 - **Hours**: Monday – Saturday: 10:30 AM – 8:30 PM (Sunday by VIP appointment)

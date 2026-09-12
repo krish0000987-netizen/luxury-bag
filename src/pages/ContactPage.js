@@ -88,7 +88,7 @@ export function renderContactPage() {
                 <div class="form-row-2col" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
                   <div>
                     <label style="display:block; font-size:0.75rem; letter-spacing:0.14em; text-transform:uppercase; font-weight:600; margin-bottom:0.35rem;">Phone / WhatsApp *</label>
-                    <input type="tel" id="contact-phone" required placeholder="+91 96029 57926" style="width:100%; padding:0.85rem; border:1px solid var(--color-gold-border); background:#FFF;" />
+                    <input type="tel" id="contact-phone" required placeholder="${STORE_DETAILS.phone}" style="width:100%; padding:0.85rem; border:1px solid var(--color-gold-border); background:#FFF;" />
                   </div>
                   <div>
                     <label style="display:block; font-size:0.75rem; letter-spacing:0.14em; text-transform:uppercase; font-weight:600; margin-bottom:0.35rem;">Email Address</label>
