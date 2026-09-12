@@ -105,7 +105,7 @@ export function renderHomePage() {
                 The signature embodiment of our brand. Featuring hand-beveled teardrop crystal kundan stones, faceted circular mirrors, and double-tier pearl borders framed in 24K antique gold. Designed for unforgettable weddings, pheras, and royal galas.
               </p>
               
-              <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:2rem; padding:1.25rem; background:var(--color-champagne-light); border-left:3px solid var(--color-gold);">
+              <div class="flagship-specs-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:2rem; padding:1.25rem; background:var(--color-champagne-light); border-left:3px solid var(--color-gold);">
                 <div>
                   <div style="font-size:0.7rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--color-gold-deep); font-weight:600;">Embellishment</div>
                   <div style="font-size:0.85rem; font-weight:500;">Prong-Set Kundan &amp; Pearls</div>
@@ -252,7 +252,7 @@ export function renderHomePage() {
             <div class="gold-divider"></div>
           </div>
 
-          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:2rem;">
+          <div class="trust-cards-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:2rem;">
             ${TRUST_POINTS.map(pt => `
               <div style="padding:2rem 1.5rem; background:var(--color-champagne-light); border:1px solid var(--color-gold-border-subtle); text-align:center;">
                 <div style="width:50px; height:50px; margin:0 auto 1.25rem; border:1px solid var(--color-gold); display:flex; align-items:center; justify-content:center; border-radius:50%; color:var(--color-gold-deep); font-size:1.25rem;">

@@ -9,15 +9,18 @@ export function renderHeader() {
 
   return `
     <div class="announcement-bar">
-      <span>Handcrafted in Jaipur &bull; Royal Heritage Embellishments &bull; Near Hawa Mahal</span>
-      <a href="tel:${STORE_DETAILS.phone}">Call: ${STORE_DETAILS.phone}</a>
+      <div class="announcement-brand-text">
+        <span class="announcement-line1">Handcrafted in Jaipur &bull; Royal Heritage</span>
+        <span class="announcement-line2">Embellishments &bull; Near Hawa Mahal</span>
+      </div>
+      <a href="tel:${STORE_DETAILS.phone}" class="announcement-phone">Call: ${STORE_DETAILS.phone}</a>
     </div>
 
     <header class="site-header" id="site-header">
       <div class="luxury-container header-inner">
         <!-- Mobile & Tablet Menu Button -->
         <button class="mobile-menu-trigger" id="mobile-menu-open" aria-label="Open Navigation Menu">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="3" y1="6" x2="21" y2="6"></line>
             <line x1="3" y1="12" x2="21" y2="12"></line>
             <line x1="3" y1="18" x2="21" y2="18"></line>

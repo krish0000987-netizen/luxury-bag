@@ -38,7 +38,7 @@ export function renderCraftsmanshipPage() {
                 From selecting unblemished pearls of uniform tone to angling faceted mirrors so they catch ambient ballroom chandeliers, nothing is left to chance. The result is a sculptural accessory that feels substantial, luxurious, and timeless.
               </p>
               
-              <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.25rem; padding:1.25rem; background:var(--color-champagne-light); border-left:3px solid var(--color-gold);">
+              <div class="flagship-specs-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1.25rem; padding:1.25rem; background:var(--color-champagne-light); border-left:3px solid var(--color-gold);">
                 <div>
                   <div style="font-size:0.7rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--color-gold-deep); font-weight:700;">Average Crafting Time</div>
                   <div style="font-size:1.1rem; font-family:var(--font-serif); font-weight:600;">24 to 36 Hours</div>
